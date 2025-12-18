@@ -5,3 +5,4 @@
 4. DNS uses which protocols — TCP, UDP, or HTTPS?
 5. What are common HTTPS API methods?
 6. Explain firewall concepts, inbound vs outbound rules, and ports.
+7. SSL handshake, three way handshake
