@@ -33,6 +33,11 @@
 17. How do you securely store credentials in pipelines?
 18. How do you design a production-ready CI/CD pipeline?
 19. How do you implement rollback strategies in deployment?
+20. How to design a multi-environment CI/CD pipeline?
+21. Scripted vs Declarative pipeline — when do you choose which?
+22. How do you secure Jenkins credentials and users?
+23. How do you trigger Jenkins automatically using Git webhooks?
+24. How do you clean workspace & handle pipeline failures?
 
 # 𝐃𝐨𝐜𝐤𝐞𝐫 & 𝐂𝐨𝐧𝐭𝐚𝐢𝐧𝐞𝐫𝐬
 1. What is Docker?
@@ -44,6 +49,11 @@
 7. How do you reduce Docker image size?
 8. What happens internally when a Docker container starts?
 9. Explain difference between ENTRYPOINT and CMD.
+10. Explain Docker multi-stage builds with an example.
+11. How do you troubleshoot high CPU usage in a container?
+12. Best practices for production-ready Dockerfiles?
+13. How to handle environment variables securely?
+14. What happens internally when you run docker run?
 
 # 🐳 Kubernetes (AKS/EKS) & Container Security
 1. How do you secure inter-pod communication in AKS using network policies and service mesh (e.g., Istio)?
@@ -68,6 +78,11 @@
 20. What are readiness vs liveness probes and why are they important?
 21. How do you implement secrets securely in Kubernetes?
 22. How would you troubleshoot CrashLoopBackOff or ImagePullBackOff?
+23. Pod in CrashLoopBackOff — how do you debug?
+24. Deployment vs StatefulSet vs DaemonSet — real use cases?
+25. How do you expose a service externally?
+26. How do ConfigMaps and Secrets work?
+27. RollingUpdate vs Recreate strategy — when to use which?
  
 # 𝐓𝐞𝐫𝐫𝐚𝐟𝐨𝐫𝐦 / 𝐈𝐧𝐟𝐫𝐚𝐬𝐭𝐫𝐮𝐜𝐭𝐮𝐫𝐞-𝐚𝐬-𝐂𝐨𝐝𝐞
 1. What is Terraform and how do you use it?
@@ -78,7 +93,11 @@
 6. How do you design reusable Terraform modules for microservices?
 7. During a production deployment, you get a state lock in the S3 backend because another engineer stopped their apply midway. How do you safely remove the lock?
 8. You need to update an autoscaling group in production with zero downtime. How would you design this using Terraform?
-9. 
+9. How do you manage Terraform state in teams?
+10. What happens internally during terraform apply?
+11. Explain Terraform modules with a scenario.
+12. How to prevent accidental deletion of resources?
+13. How do you fix drift when changes are done manually on AWS?
 
 # Ansible
 1. A user-creation playbook always shows “changed” and is not idempotent. How do you fix it?
@@ -126,6 +145,11 @@
 13. How do we restrict access from a specific IP/location?
 14. Difference between Security Group and NACL?
 15. How do you recover an EC2 instance if the key pair is lost?
+16. How will you auto-scale an application when traffic spikes?
+17. Difference between ALB, NLB & CLB — where to use which?
+18. How will you secure an S3 bucket for both public and private access?
+19. Your EC2 becomes unreachable — how will you troubleshoot?
+20. How do you implement Blue-Green deployment using AWS services?
      
 # 𝐆𝐢𝐭, 𝐁𝐫𝐚𝐧𝐜𝐡𝐢𝐧𝐠 & 𝐕𝐞𝐫𝐬𝐢𝐨𝐧 𝐂𝐨𝐧𝐭𝐫𝐨𝐥
 1. Explain GitFlow vs Trunk-Based Development. Which one do product companies prefer & why?
